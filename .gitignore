@@ -1,0 +1,23 @@
+# CRYPTUS.ENUM — .gitignore
+
+# Ignore auto-generated report directories
+domain_report_*/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor temp files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Logs
+*.log
+
+# urlcrazy (cloned at runtime into $HOME — do not commit)
+urlcrazy/
